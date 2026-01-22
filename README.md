@@ -77,7 +77,6 @@ Password: 12345678
 Перейдите по адресу:
 
 ```cpp
-Копировать код
 http://192.168.4.1
 ```
 Веб-интерфейс загрузится автоматически.
@@ -107,7 +106,6 @@ Movement
 Настройка углов в коде:
 
 ```cpp
-Копировать код
 int angleMin = 60;
 int angleMax = 120;
 int angleCenter = 90;
@@ -123,9 +121,10 @@ Build & Upload
 
 Установите библиотеки:
 
+``` cpp
 ESP32Servo
-
 WebSockets
+```
 
 Выберите плату: ESP32 Dev Module
 
@@ -133,14 +132,14 @@ WebSockets
 
 Для отладки используйте Serial Monitor (115200)
 
-Troubleshooting
+### Troubleshooting
 Problem	Solution
 Wi-Fi не появляется	Проверить питание
 Страница не открывается	Убедиться, что подключены к ESP32
 Серво дергается	Уменьшить шаг или диапазон
 Задержки управления	Увеличить throttleMs
 
-Future Improvements
+### Future Improvements
 Управление скоростью
 
 Режим удержания газа
